@@ -1,0 +1,22 @@
+{
+  "name": "mono_pnpm",
+  "version": "0.0.0",
+  "description": "Kick off a mono-repo pnpm project",
+  "scripts": {
+    "build:lib": "pnpm run build --filter @monosample/lib",
+    "build:lib:watch": "pnpm run build:watch --filter @monosample/lib",
+    "dev:api_1:web_1": "concurrently \"pnpm run dev --filter @monosample/api_1\" \"pnpm run start --filter @monosample/web_1\"",
+    "dev:app_1:web_1": "concurrently \"pnpm run dev --filter @monosample/app_1\" \"pnpm run serve --filter @monosample/web_1\"",
+    "dev:app_2:web_2": "concurrently \"pnpm run dev --filter @monosample/app_2\" \"pnpm run start --filter @monosample/web_2\""
+  },
+  "devDependencies": {
+    "typescript": "4.6.2",
+    "concurrently": "7.0.0"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "Salvydas Lukosius",
+  "license": "MIT"
+}

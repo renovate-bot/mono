@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Root"
+    },
+    {
+      "path": "migrations",
+      "name": "Migrations"
+    },
+    {
+      "path": "packages/lib",
+      "name": "Core Library"
+    },
+    {
+      "path": "packages/api_1",
+      "name": "Api 1"
+    },
+    {
+      "path": "packages/api_2",
+      "name": "Api 2"
+    },
+    {
+      "path": "packages/app_1",
+      "name": "App 1"
+    },
+    {
+      "path": "packages/app_2",
+      "name": "App 2"
+    },
+    {
+      "path": "packages/web_1",
+      "name": "Website 1"
+    },
+    {
+      "path": "packages/web_2",
+      "name": "Website 2"
+    }
+  ],
+  "settings": {}
+}
