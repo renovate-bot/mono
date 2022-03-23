@@ -34,7 +34,7 @@ You can resize the video by pressing <kbd>Ctrl-+</kbd> or <kbd>CtrlCmd-+</kbd>.
 import Asciinema484 from '@site/static/img/plugins/asciinema/48490.png';
 
 <a href="https://asciinema.org/a/48490">
-  <Image className="ScreenView" img={Asciinema484} alt="Zsh-Select view on Asciinema" />
+  <img className="ScreenView" src={Asciinema484} alt="Zsh-Select view on Asciinema" />
 </a>
 
 Video: source: [asciinema](https://asciinema.org/a/48490)

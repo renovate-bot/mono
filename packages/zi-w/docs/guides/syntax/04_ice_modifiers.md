@@ -1,7 +1,7 @@
 ---
 id: ice-modifiers
 title: 🧊 Ice Modifiers
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Documentation for the ice Modifiers
 keywords: [ice-modifiers]
 ---

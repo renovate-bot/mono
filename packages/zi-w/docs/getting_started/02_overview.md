@@ -1,6 +1,6 @@
 ---
 title: '☑️ Quick overview'
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Overview of use cases for Z-Shell ZI
 keywords: [overview]
 ---
@@ -687,8 +687,8 @@ For some additional examples you can also check out the:
 [1]: /search?q=ice+modifiers
 [2]: /search?q=from
 [3]: /search?q=for+syntax
-[9]: /docs/gallery/collection#oh-my-zsh
-[10]: /docs/gallery/collection
+[9]: /community/gallery/collection#oh-my-zsh
+[10]: /community/gallery/collection
 [11]: /docs/guides/syntax/ice#atclone-atpull-atinit-atload
 [12]: /community/intro#use-of-add-zsh-hook-to-install-hooks
 [13]: /docs/guides/syntax/ice#src-pick-multisrc

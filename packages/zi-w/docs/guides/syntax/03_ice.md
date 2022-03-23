@@ -1,7 +1,7 @@
 ---
 id: ice
 title: 🧊 Ice Syntax
-image: zw/img/ice-239x200.png
+image: img/ice-239x200.png
 description: Ice syntax documentation
 keywords: [ice, syntax]
 ---
@@ -11,7 +11,7 @@ import Image from '@theme/IdealImage'; import APITable from '@site/src/component
 import ZIceImg from '@site/static/img/ice-239x200.png';
 
 <div className="IceLogo" align="right">
-   <Image img={ZIceImg} alt="What is ice" />
+   <img src={ZIceImg} alt="What is ice" />
 </div>
 
 :::info FAQ: What is ice?

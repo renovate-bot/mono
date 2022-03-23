@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "z-shell mono",
   "scripts": {
-    "build:zw": "pnpm run build --filter @mono/zw",
-    "dev:api_1:web_1": "concurrently \"pnpm run dev --filter @mono/api_1\" \"pnpm run start --filter @monosample/web_1\""
+    "build:zw": "pnpm -s --parallel build --filter @mono/zi-w",
+    "start:zw": "pnpm -s run start --filter @mono/zi-w",
+    "dev:zw": "concurrently \"pnpm run dev --filter @mono/api_1\" \"pnpm run start --filter @monosample/web_1\"",
+    "clean": "pnpm -s -r exec rm -rf node_modules && pnpm -s run clean --filter @mono/*",
+    "comp": "pnpm install-completion"
   },
   "devDependencies": {
     "typescript": "4.6.2",

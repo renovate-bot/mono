@@ -28,7 +28,7 @@ You can resize the video by pressing <kbd>Ctrl-+</kbd> or <kbd>Cmd-+</kbd>.
 import Asciinema156 from '@site/static/img/plugins/asciinema/156726.png';
 
 <a href="https://asciinema.org/a/156726">
-<Image className="ScreenView" img={Asciinema156} alt="ZConvey view on Asciinema" />
+  <img className="ScreenView" src={Asciinema156} alt="ZConvey view on Asciinema" />
 </a>
 
 Video source: [Asciinema](https://asciinema.org/a/156726)

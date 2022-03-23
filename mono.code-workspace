@@ -5,9 +5,32 @@
       "name": "Root"
     },
     {
-      "path": "packages/zw",
+      "path": "packages/lib",
+      "name": "Library"
+    },
+    {
+      "path": "packages/zi-w",
       "name": "ZI Wiki"
     }
   ],
-  "settings": {}
+  "settings": {},
+  "launch": {
+    "configurations": [
+      {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "zi-w:src/pages/index.Home (nodejs14.x)",
+        "invokeTarget": {
+          "target": "code",
+          "projectRoot": "$CODE_WORKSPACE/z-shell/mono/packages/zi-w",
+          "lambdaHandler": "src/pages/index.Home"
+        },
+        "lambda": {
+          "runtime": "nodejs14.x",
+          "payload": {},
+          "environmentVariables": {}
+        }
+      }
+    ]
+  }
 }

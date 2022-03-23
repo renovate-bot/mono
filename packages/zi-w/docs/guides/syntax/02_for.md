@@ -1,7 +1,7 @@
 ---
 id: for
 title: ✨ For Syntax
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: The For Syntax documentation
 keywords: [syntax, how-to-use]
 ---

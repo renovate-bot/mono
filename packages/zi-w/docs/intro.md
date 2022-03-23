@@ -2,7 +2,7 @@
 id: intro
 title: "🎉 Introduction"
 sidebar_position: 1
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Introduction to a Swiss Army Knife for Zsh, formely known as zplugin, zinit.
 keywords:
   - introduction
@@ -11,11 +11,11 @@ keywords:
 import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import Image from '@theme/IdealImage';
 import ZGitImg from '@site/static/img/z_git.png';
 
-<Image className="ScreenView" img={ZGitImg} alt='Install almost everything from GitHub' />
+<img src={ZGitImg} alt='Install almost everything from GitHub' />
 
 <a href="https://github.com/z-shell">
   <img
-    className="ScreenView"
+    className="ScreenViewFull"
     src="https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin.svg"
     alt="Z-Shell Organization"
   />
@@ -87,26 +87,28 @@ Invocations][7].
 
 <!-- markdownlint-disable -->
 
+<table className="SocialTable">
 <a href="https://github.com/orgs/z-shell/projects">
   <img
-    className="ScreenView"
+    className="ScreenViewFull"
     src="https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin.projects.svg"
     alt="Z-Shell Projects"
   />
 </a>
 <a href="https://github.com/orgs/z-shell/projects">
   <img
-    className="ScreenView"
+    className="ScreenViewFull"
     src="https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin.followup.indepth.svg"
     alt="Z-Shell Indepth"
   />
 </a><a href="https://github.com/z-shell/zw">
   <img
-    className="ScreenView"
+    className="ScreenViewFull"
     src="https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin.pagespeed.detailed.svg"
     alt="ZW PageSpeed"
   />
 </a>
+</table>
 
 <!-- markdownlint-restore -->
 
@@ -116,8 +118,7 @@ Invocations][7].
 [4]: /docs/ecosystem/annexes/rust
 [5]: /docs/ecosystem/annexes
 [6]: /docs/ecosystem/packages/packages-overview
-[7]: /docs/gallery/collection
-[8]: /docs/getting_started/overview#turbo-mode-zsh--53
+[7]: /community/gallery/collection
 [9]: /docs/guides/customization#customizing-paths
 [10]: /docs/guides/customization#multiple-prompts
 [11]: /docs/guides/customization#non-github-local-plugins

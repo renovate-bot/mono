@@ -1,7 +1,7 @@
 ---
 id: zsh-nav-tools
 title: ⚙️ Navigation Tools
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Multi-word history searcher, `n-cd` – directory bookmark manager, `n-kill` – `htop` like kill utility, and more.
 keywords: [zsh-navigation-tools, zsh-plugin]
 ---

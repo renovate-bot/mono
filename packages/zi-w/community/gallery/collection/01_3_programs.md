@@ -545,6 +545,6 @@ export CARGO_HOME=\$PWD; export RUSTUP_HOME=\$PWD/rustup" for \
 [103]: /docs/guides/syntax/common#the-make-syntax
 [104]: /docs/guides/syntax/ice
 [105]: /docs/guides/syntax/ice-modifiers
-[106]: /docs/gallery/collection#compiling-programs
+[106]: /community/gallery/collection#compiling-programs
 [107]: /docs/guides/customization#customizing-paths
 [108]: /docs/ecosystem/annexes/bin-gem-node#the-ice-modifiers-provided-by-the-annex

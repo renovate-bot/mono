@@ -1,7 +1,7 @@
 ---
 id: bindkey
 title: 🗒 Bindkeys Map
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: The Bindmap & Bindkey ZI syntax
 keywords: [syntax, how-to-use]
 ---

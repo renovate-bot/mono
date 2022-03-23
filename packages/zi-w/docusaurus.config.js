@@ -1,5 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
@@ -96,7 +95,7 @@ const config = {
     [
       "pwa",
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: [
           "appInstalled",
           "standalone",
@@ -154,10 +153,8 @@ const config = {
     [
       "ideal-image",
       {
-        quality: 70,
         max: 1030,
         min: 640,
-        steps: 2,
         disableInDev: true,
       },
     ],
@@ -169,7 +166,7 @@ const config = {
       image: "img/logo/320x320.png",
       announcementBar: {
         id: "announcemnt",
-        content: `If you like ❮ ZI ❯ - give it a <a target="_blank" rel="noopener noreferrer" href="https://github.com/z-shell/zi">⭐️</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/z-shell"><i class="fa-brands fa-github-alt" width="16" height="16">GitHub</i></a> or <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/zshell_zi"><i class="fa-brands fa-twitter" width="16" height="16">Twitter</i></a>`,
+        content: `If you like ❮ ZI ❯ - give it a <a target="_blank" rel="noopener noreferrer" href="https://github.com/z-shell/zi">⭐️</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/z-shell"><i class="fa-brands fa-github-alt fa-1x">GitHub</i></a> or <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/zshell_zi"><i class="fa-brands fa-twitter" fa-1x>Twitter</i></a>`,
       },
       algolia: {
         appId: "8A6CKETM6G",
@@ -276,7 +273,7 @@ const config = {
             items: [
               {
                 label: "Privacy Policy",
-                to: "legal/privacy_policy/",
+                to: "legal/privacy_policy",
               },
             ],
           },

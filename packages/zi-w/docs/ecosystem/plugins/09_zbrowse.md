@@ -1,7 +1,7 @@
 ---
 id: zbrowse
 title: ⚙️ ZBrowse
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Check variables of a possible loop.
 keywords: [zbrowse, zsh-plugin, variable]
 ---
@@ -17,20 +17,20 @@ With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `
 
 import Screen1 from '@site/static/img/plugins/zbrowse.png';
 
-<Image className="ScreenView" img={Screen1} alt="ZBrowse preview" />
+<img className="ScreenView" src={Screen1} alt="ZBrowse preview" />
 
 ---
 
 :::tip
 
-You can resize the video by pressing `Ctrl-+` or `Cmd-+`.
+You can resize the video by pressing <kbd>Ctrl-+</kbd> or <kbd>Cmd-+</kbd>.
 
 :::
 
 import Asciinema122 from '@site/static/img/plugins/asciinema/122018.png';
 
 <a href="https://asciinema.org/a/122018">
-  <Image className="ScreenView" img={Asciinema122} alt="ZBrowse view on Asciinema" />
+  <img className="ScreenView" src={Asciinema122} alt="ZBrowse view on Asciinema" />
 </a>
 
 Video source: [Asciinema](https://asciinema.org/a/122018)

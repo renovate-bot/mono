@@ -2,7 +2,7 @@
 id: common
 title: 🔀 Common Syntax
 sidebar_position: 1
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: The Fundamental ZI syntax
 keywords: [syntax, how-to-use]
 ---

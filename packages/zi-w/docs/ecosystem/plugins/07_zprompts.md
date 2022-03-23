@@ -1,7 +1,7 @@
 ---
 id: zprompts
 title: ⚙️ ZPrompts
-image: zw/logo/320x320.png
+image: img/logo/320x320.png
 description: Zsh themes (prompts) that use original Zsh theming subsystem
 keywords: [zsh-theme, prompt, zsh]
 ---
@@ -42,7 +42,7 @@ The default invocation is: ":: " cyan cyan magenta
 import Asciinema481 from '@site/static/img/plugins/asciinema/48122.png';
 
 <a href="https://asciinema.org/a/48122">
-  <Image className="ScreenView" img={Asciinema481} alt="Zprompts view on Asciinema" />
+  <img className="ScreenView" src={Asciinema481} alt="Zprompts view on Asciinema" />
 </a>
 
 Video showing a feature – information about how old are repository's unstaged changes

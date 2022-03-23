@@ -15,8 +15,9 @@
     "write-docs-version": "docusaurus docs:version",
     "write-community-version": "docusaurus docs:version:community",
     "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
-    "build:cf": "pnpm install --strict-peer-dependencies --no-prefer-frozen-lockfile && pnpm build",
-    "preinstall": "npx only-allow pnpm && npm config set store-dir \"$HOME/.pnpm-store\"",
+    "build:cf": "pnpm -s install --strict-peer-dependencies --no-prefer-frozen-lockfile && pnpm -s build",
+    "preinstall": "npx only-allow pnpm",
+    "pre": "&& pnpm config set store-dir \"$HOME/.pnpm-store\"",
     "clean": "rm -rf node_modules",
     "typecheck": "tsc"
   },
@@ -38,7 +39,6 @@
     "@babel/plugin-syntax-typescript": "7.16.7",
     "@crowdin/cli": "3.7.8",
     "@docusaurus/module-type-aliases": "0.0.0-4727",
-    "@tsconfig/docusaurus": "1.0.5",
     "@types/react": "^17.0.41",
     "prop-types": "15.8.1",
     "typescript": "4.6.2"
