@@ -1,0 +1,19 @@
+{
+  "extends": ["config:base"],
+  "dependencyDashboardApproval": true,
+  "lockFileMaintenance": {"enabled": true},
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["major"]
+    }
+  ]
+}

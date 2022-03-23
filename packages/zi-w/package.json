@@ -1,0 +1,69 @@
+{
+  "name": "@mono/zi-w",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "write-docs-version": "docusaurus docs:version",
+    "write-community-version": "docusaurus docs:version:community",
+    "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
+    "build:cf": "pnpm install --strict-peer-dependencies --no-prefer-frozen-lockfile && pnpm build",
+    "preinstall": "npx only-allow pnpm && npm config set store-dir \"$HOME/.pnpm-store\"",
+    "clean": "rm -rf node_modules",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "0.0.0-4727",
+    "@docusaurus/preset-classic": "0.0.0-4727",
+    "@docusaurus/plugin-pwa": "0.0.0-4727",
+    "@docusaurus/plugin-ideal-image": "0.0.0-4727",
+    "@docusaurus/theme-search-algolia": "0.0.0-4727",
+    "@mdx-js/react": "^1.6.22",
+    "clsx": "^1.1.1",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@algolia/client-search": "4.13.0",
+    "@babel/core": "7.17.8",
+    "@babel/plugin-syntax-typescript": "7.16.7",
+    "@crowdin/cli": "3.7.8",
+    "@docusaurus/module-type-aliases": "0.0.0-4727",
+    "@tsconfig/docusaurus": "1.0.5",
+    "@types/react": "^17.0.41",
+    "prop-types": "15.8.1",
+    "typescript": "4.6.2"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=6"
+  },
+  "pnpm": {
+    "overrides": {
+      "nth-check@<2.0.1": ">=2.0.1",
+      "trim@<0.0.3": ">=0.0.3",
+      "minimist@<=1.2.5": "<0.0.0"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
