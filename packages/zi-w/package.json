@@ -22,11 +22,11 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "0.0.0-4727",
-    "@docusaurus/preset-classic": "0.0.0-4727",
-    "@docusaurus/plugin-pwa": "0.0.0-4727",
-    "@docusaurus/plugin-ideal-image": "0.0.0-4727",
-    "@docusaurus/theme-search-algolia": "0.0.0-4727",
+    "@docusaurus/core": "0.0.0-4765",
+    "@docusaurus/preset-classic": "0.0.0-4765",
+    "@docusaurus/plugin-pwa": "0.0.0-4765",
+    "@docusaurus/plugin-ideal-image": "0.0.0-4765",
+    "@docusaurus/theme-search-algolia": "0.0.0-4765",
     "@mdx-js/react": "1.6.22",
     "clsx": "1.1.1",
     "prism-react-renderer": "1.3.1",
@@ -38,7 +38,7 @@
     "@babel/core": "7.17.8",
     "@babel/plugin-syntax-typescript": "7.16.7",
     "@crowdin/cli": "3.7.8",
-    "@docusaurus/module-type-aliases": "0.0.0-4727",
+    "@docusaurus/module-type-aliases": "0.0.0-4765",
     "@types/react": "17.0.42",
     "prop-types": "15.8.1",
     "typescript": "4.6.2"
